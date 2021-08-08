@@ -85,7 +85,7 @@ drupal_composer_project_options: "--prefer-dist --stability dev --no-interaction
 drupal_install_site: false
 
 # Required Drupal settings.
-drupal_core_path: "/var/www/drupal"
+drupal_core_path: "/var/www/drupalvm/drupal"
 drupal_core_owner: "{{ drupalvm_user }}"
 drupal_db_user: drupal
 drupal_db_password: drupal
